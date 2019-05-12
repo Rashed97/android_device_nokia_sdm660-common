@@ -88,6 +88,11 @@ PRODUCT_PACKAGES += \
     Tag \
     com.android.nfc_extras
 
+# QTI Performance
+PRODUCT_BOOT_JARS += \
+    QPerformance \
+    UxPerformance
+
 # Telephony-ext
 PRODUCT_PACKAGES += \
     ims-ext-common \
