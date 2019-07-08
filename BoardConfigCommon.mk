@@ -128,9 +128,6 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/private
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += device/qcom/sepolicy/private
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += device/qcom/sepolicy/public
 
-# System Properties
-TARGET_SYSTEM_PROP := $(COMMON_PATH)/system.prop
-
 # Verified Boot
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --set_hashtree_disabled_flag
