@@ -105,11 +105,6 @@ PRODUCT_PACKAGES += \
     Tag \
     com.android.nfc_extras
 
-# QTI Performance
-PRODUCT_BOOT_JARS += \
-    QPerformance \
-    UxPerformance
-
 # RCS
 PRODUCT_PACKAGES += \
     rcs_service_aidl \
@@ -119,7 +114,6 @@ PRODUCT_PACKAGES += \
 
 # Telephony-ext
 PRODUCT_PACKAGES += \
-    ims-ext-common \
     telephony-ext
 
 PRODUCT_BOOT_JARS += \
